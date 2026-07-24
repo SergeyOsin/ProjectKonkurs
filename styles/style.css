@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: darkblue 1px solid;
+    border-boundary: initial;
+    border-radius: 15px;
+    background-color: bisque;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block-start: 50px;
+    
+}
