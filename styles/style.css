@@ -1,9 +1,16 @@
+@font-face{
+    font-family: 'Montserrat';
+    src: url("fonts/Montserrat.ttf");
+    font-weight: bold;
+    color: #000000;
+}
+
 :root{
     color-scheme: light;
 }
 
-*{
-    font-family: 'Montserrat', sans-serif;
+html {
+    font-family: "Montserrat", sans-serif;
 }
 
 body{
@@ -38,11 +45,10 @@ body{
 .header-text p {
     margin: 0;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
     font-stretch: normal;
     font-feature-settings: "tnum";
     font-synthesis-position: auto;
-    font-style: normal;
+    font-style: unset;
     line-height: 1.5;
 }
 
@@ -61,7 +67,7 @@ body{
 
 .main-HeaderText h1{
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     font-stretch: normal;
     font-feature-settings: "tnum";
     font-synthesis-position: auto;
@@ -78,7 +84,7 @@ body{
 }
 
 .main-text h1{
-    font-size: 40px;
+    font-size: 30px;
     padding-right: 40px;
 }
 
@@ -100,7 +106,7 @@ body{
 }
 
 .main-next h1{
-    font-size: 40px;
+    font-size: 30px;
     padding-right: 30px;
 }
 
