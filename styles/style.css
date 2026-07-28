@@ -2,6 +2,10 @@
     color-scheme: light;
 }
 
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 body{
     background-color: light-dark(#ffffff, #000000);
     color: light-dark(#000000, #ffffff);
@@ -34,7 +38,7 @@ body{
 .header-text p {
     margin: 0;
     font-size: 25px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-stretch: normal;
     font-feature-settings: "tnum";
     font-synthesis-position: auto;
@@ -58,7 +62,6 @@ body{
 .main-HeaderText h1{
     font-weight: bold;
     font-size: 35px;
-    font-family: Montserrat;
     font-stretch: normal;
     font-feature-settings: "tnum";
     font-synthesis-position: auto;
@@ -130,7 +133,6 @@ body{
     padding: 15px;
     color: black;
     font-style: left;
-    font-family: Montserrat;
 }
 
 .advantages-table th {
