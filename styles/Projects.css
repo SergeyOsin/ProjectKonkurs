@@ -71,7 +71,7 @@ body{
     border-bottom: 8px solid blue;
 }
 
-.header-text p, 
+.header-text p,
 .logo,
 .logoNew:active{
     cursor: pointer;
@@ -95,7 +95,6 @@ body{
 .header-hrefs a:hover{
     text-decoration: white;
     cursor: pointer;
-    text-decoration: underline;
 }
 
 .main {
@@ -140,6 +139,19 @@ body{
     margin-bottom: 20px;
 }
 
+.support-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+
+.logo-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 .support-block p {
     font-size: 22px;
     line-height: 1.6;
@@ -149,12 +161,9 @@ body{
 }
 
 .support-block a{
-    font-size: 70px;
-    font-weight: bold;
+    font-size: 50px;
     color: light-dark(#000000, #ffffff);
-    text-decoration: none;
-    margin-top: 20px;
-    transform: scaleX(1.01);
+    font-weight: bold;
 }
 
 .main-next{
