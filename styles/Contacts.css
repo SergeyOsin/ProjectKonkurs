@@ -71,7 +71,7 @@ body{
     border-bottom: 8px solid blue;
 }
 
-.header-text p, 
+.header-text p,
 .logo,
 .logoNew:active{
     cursor: pointer;
@@ -93,85 +93,15 @@ body{
 }
 
 .header-hrefs a:hover{
-    text-decoration: white;
     cursor: pointer;
-    text-decoration: underline;
 }
 
-.main {
+.main{
     display: flex;
+    position: relative;
     justify-content: center;
-    margin-top: 40px;
-}
-
-.main-text {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 80px;
-    width: 90%;
-}
-
-.image-block {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.result-img {
-    width: 100%;
-    max-width: 650px;
-    height: auto;
-    box-shadow: 5px 5px 10px rgba(0,0,0,.4);
-}
-
-.support-block {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-}
-
-.logo-img {
-    width: 100%;
-    max-width: 450px;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-.support-block p {
-    font-size: 22px;
-    line-height: 1.6;
-    text-align: justify;
-    display: revert;
-    padding: 10px;
-}
-
-.support-block a{
-    font-size: 70px;
-    font-weight: bold;
-    color: light-dark(#000000, #ffffff);
-    text-decoration: none;
-    margin-top: 20px;
-    transform: scaleX(1.01);
-}
-
-.main-next{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
-.main-next h1{
-    font-size: 30px;
-    padding-right: 30px;
-}
-
-.main-next img{
-    width: 450px;
-    height: auto;
-    border: 2px solid light-dark(blue, #ffffff);
-    box-sizing: border-box;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
 }
