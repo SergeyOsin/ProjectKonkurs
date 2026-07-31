@@ -132,9 +132,12 @@ body{
 }
 
 .support-block a{
-    font-size: 50px;
-    color: light-dark(#000000, #ffffff);
+    font-size: 70px;
     font-weight: bold;
+    color: light-dark(#000000, #ffffff);
+    text-decoration: none;
+    margin-top: 20px;
+    transform: scaleX(1.01);
 }
 
 .main-next{
