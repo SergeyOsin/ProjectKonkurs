@@ -6,3 +6,4 @@ window.addEventListener("click", (event) => {
             document.documentElement.style.colorScheme = "dark";
     }
 });
+

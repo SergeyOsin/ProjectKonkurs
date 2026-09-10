@@ -39,6 +39,7 @@ body{
 .header-logo img {
     width: 180px;
     height: auto;
+    background-color: transparent;
 }
 
 .logo,

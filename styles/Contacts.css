@@ -96,12 +96,15 @@ body{
     cursor: pointer;
 }
 
-.main{
-    display: flex;
+.main {
     position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+.main b {
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
 }
