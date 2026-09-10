@@ -55,7 +55,7 @@ body{
 
 .header-text p {
     margin: 0;
-    font-size: 55px;
+    font-size: 40px;
     color: light-dark(#ffffff, #000000);
     border-bottom: 8px solid blue;
 }
