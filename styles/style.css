@@ -59,7 +59,8 @@ body{
     font-stretch: normal;
     font-feature-settings: "tnum";
     font-synthesis-position: auto;
-    background-color: light-dark(#000000, #ffffff);
+    background-color: light-dark(#000000,#ffffff);
+    color: light-dark(#ffffff, #000000);
     font-style: unset;
     line-height: 1.5;
     border-bottom: 8px solid blue;
